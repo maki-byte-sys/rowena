@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Filipino Food Bliss</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background: #fff7e6;
+    }
+
+    header {
+      background: #333;
+      color: white;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      display: flex;
+      padding: 60px;
+      background: white;
+      align-items: center;
+    }
+
+    .hero-text {
+      flex: 1;
+      padding-right: 40px;
+    }
+
+    .hero-text h1 {
+      font-size: 46px;
+      margin-bottom: 10px;
+    }
+
+    .hero-text p {
+      font-size: 18px;
+    }
+
+    .hero-images {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    .hero-images img {
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 6px solid #f0e0c0;
+    }
+
+    .recipes {
+      padding: 50px;
+      background: #fff3db;
+    }
+
+    .recipes h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .grid a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      text-align: center;
+      padding: 15px;
+      margin: 0;
+      background: #b63a3a;
+      color: white;
+    }
+
+    .center {
+      grid-column: span 2;
+      display: flex;
+      justify-content: center;
+    }
+
+    .center .card {
+      width: 380px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>Filipino Food Bliss</h2>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>Best Filipino Food for Your Taste</h1>
+    <p>
+      Discover the heart of Filipino cuisine through classic dishes
+      that represent tradition, flavor, and culture.
+    </p>
+  </div>
+
+  <div class="hero-images">
+    <img src="food.jpg" alt="Food Image">
+  </div>
+</section>
+
+<section class="recipes">
+  <h2>Featured Filipino Recipes</h2>
+
+  <div class="grid">
+    <a href="sinigang.html">
+      <div class="card">
+        <img src="sinigang.jpg" alt="Sinigang">
+        <h3>Sinigang</h3>
+      </div>
+    </a>
+
+    <a href="sisig.html">
+      <div class="card">
+        <img src="sisig.jpg" alt="Sisig">
+        <h3>Sisig</h3>
+      </div>
+    </a>
+
+    <a href="adobo.html">
+      <div class="card">
+        <img src="adobo.jpg" alt="Adobo">
+        <h3>Adobo</h3>
+      </div>
+    </a>
+
+    <a href="pakbet.html">
+      <div class="card">
+        <img src="pakbet.jpg" alt="Pakbet">
+        <h3>Pakbet</h3>
+      </div>
+    </a>
+
+    <div class="center">
+      <a href="kinilaw.html">
+        <div class="card">
+          <img src="kinilaw.jpg" alt="Kinilaw">
+          <h3>Kinilaw</h3>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

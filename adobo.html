@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Adobo Recipe</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background: linear-gradient(135deg, #f3efe6, #e6dcc7);
+      padding: 40px;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      display: flex;
+      gap: 30px;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    }
+
+    .text {
+      flex: 2;
+    }
+
+    h1 {
+      color: #6b4f2c;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      margin-top: 25px;
+      color: #4e3920;
+    }
+
+    p {
+      line-height: 1.7;
+      color: #444;
+    }
+
+    ul {
+      padding-left: 20px;
+      color: #444;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 25px;
+      text-decoration: none;
+      background: linear-gradient(135deg, #6b4f2c, #8b6a3e);
+      color: white;
+      padding: 12px 26px;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    a.button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(107, 79, 44, 0.4);
+    }
+
+    .image-container {
+      flex: 1;
+      text-align: center;
+    }
+
+    .image-container img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease;
+    }
+
+    .image-container img:hover {
+      transform: scale(1.03);
+    }
+
+    .image-credit {
+      margin-top: 10px;
+      font-size: 13px;
+      color: #666;
+    }
+
+    .image-credit a {
+      color: #6b4f2c;
+      text-decoration: none;
+    }
+
+    .image-credit a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      text-align: center;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+      font-size: 14px;
+      color: #555;
+    }
+
+    footer a {
+      color: #6b4f2c;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="text">
+    <h1>Adobo</h1>
+    <p>
+      Adobo is one of the most popular Filipino dishes, known for its
+      savory, tangy, and garlicky flavor. It is traditionally made by
+      simmering meat in vinegar, soy sauce, garlic, bay leaves, and peppercorns.
+    </p>
+
+    <h3>Ingredients</h3>
+    <ul>
+      <li>Pork or chicken</li>
+      <li>Soy sauce</li>
+      <li>Vinegar</li>
+      <li>Garlic</li>
+      <li>Bay leaves</li>
+      <li>Whole peppercorns</li>
+    </ul>
+
+    <h3>Cooking Method</h3>
+    <p>
+      Marinate the meat in soy sauce and garlic. Simmer with vinegar,
+      bay leaves, and peppercorns until tender. Reduce the sauce and
+      lightly brown the meat before serving.
+    </p>
+
+    <a href="index.html" class="button">← Back to Main Page</a>
+  </div>
+
+  <div class="image-container">
+    <!-- Clickable image -->
+    <a href="https://ph.pinterest.com/pin/11751649022314911/" target="_blank">
+      <img src="adobo.jpg" alt="Adobo Dish">
+    </a>
+
+    <!-- Image credit -->
+    <div class="image-credit">
+      Image source:
+      <a href="https://example.com/adobo-image-source" target="_blank">
+        Example Website
+      </a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>
+    Cooking method reference:
+    <a href="https://panlasangpinoy.com/filipino-chicken-adobo-recipe/" target="_blank">
+      Panlasang Pinoy – Adobo Recipe
+    </a>
+  </p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sinigang Recipe</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background: linear-gradient(135deg, #fff1d6, #ffe4c4);
+      padding: 40px;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      display: flex;
+      gap: 30px;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    }
+
+    .text {
+      flex: 2;
+    }
+
+    h1 {
+      color: #b63a3a;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      margin-top: 25px;
+      color: #8b2f2f;
+    }
+
+    p {
+      line-height: 1.7;
+      color: #444;
+    }
+
+    ul {
+      padding-left: 20px;
+      color: #444;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 25px;
+      text-decoration: none;
+      background: linear-gradient(135deg, #b63a3a, #d94b4b);
+      color: white;
+      padding: 12px 26px;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    a.button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(182, 58, 58, 0.4);
+    }
+
+    .image-container {
+      flex: 1;
+      text-align: center;
+    }
+
+    .image-container img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease;
+    }
+
+    .image-container img:hover {
+      transform: scale(1.03);
+    }
+
+    .image-credit {
+      margin-top: 10px;
+      font-size: 13px;
+      color: #666;
+    }
+
+    .image-credit a {
+      color: #b63a3a;
+      text-decoration: none;
+    }
+
+    .image-credit a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      text-align: center;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+      font-size: 14px;
+      color: #555;
+    }
+
+    footer a {
+      color: #b63a3a;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="text">
+    <h1>Sinigang</h1>
+    <p>
+      Sinigang is a classic Filipino sour soup usually cooked with pork,
+      shrimp, or fish. Its signature sour taste comes from tamarind and
+      is balanced with vegetables like kangkong, radish, and eggplant.
+    </p>
+
+    <h3>Ingredients</h3>
+    <ul>
+      <li>Pork or shrimp</li>
+      <li>Tamarind mix</li>
+      <li>Kangkong</li>
+      <li>Radish</li>
+      <li>Tomatoes</li>
+    </ul>
+
+    <h3>Cooking Method</h3>
+    <p>
+      Boil the meat until tender, add vegetables, mix in tamarind,
+      season with salt or fish sauce, and simmer until cooked.
+    </p>
+
+    <a href="index.html" class="button">← Back to Main Page</a>
+  </div>
+
+  <div class="image-container">
+    <a href="https://ph.pinterest.com/pin/872994709030357515/" target="_blank">
+      <img src="sinigang.jpg" alt="Sinigang Dish">
+    </a>
+
+    <!-- Image credit -->
+    <div class="image-credit">
+      Image source:
+      <a href="https://example.com/image-source" target="_blank">
+        Example Website
+      </a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>
+    Cooking method reference:
+    <a href="https://panlasangpinoy.com/sinigang-na-baboy-recipe/" target="_blank">
+      Panlasang Pinoy – Sinigang Recipe
+    </a>
+  </p>
+</footer>
+
+</body>
+</html>
